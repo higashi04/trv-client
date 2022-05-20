@@ -1,0 +1,30 @@
+.box{
+    background-color: #fff;
+    border-radius: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 120px;
+    padding: 5%;
+    margin: 20px;
+    box-shadow: 0 15px #e8e9e9;
+}
+
+@media (max-device-width: 1021px) {
+    .box{
+        background-color: #fff;
+        border-radius: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        padding: 5%;
+        margin: 20px;
+        box-shadow: 0 15px #e8e9e9;
+    }
+
+}

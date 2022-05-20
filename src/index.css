@@ -1,6 +1,14 @@
 body {
   padding-top: 55px;
+  padding-bottom: 125px;
   background-color: #669BC7
+}
+
+.listHolder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-device-width: 275px) {

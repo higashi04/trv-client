@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const BusData = props => {
     return(
@@ -24,7 +24,6 @@ const Buses = () => {
             }
             const buses = await response.json()
             setItems(buses)
-            console.log(items)
         }
         getBuses()
         return

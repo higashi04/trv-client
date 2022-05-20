@@ -17,6 +17,9 @@ function Navibar() {
                         <Nav.Link href="/buses">
                             Unidades
                         </Nav.Link>
+                        <Nav.Link href="/drivers">
+                            Choferes
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
