@@ -1,0 +1,31 @@
+img{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+}
+
+
+.data {
+    font-size: 1.5rem;
+    background-color: floralwhite;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 25%;
+}
+
+@media (max-device-width: 525px) {
+    .data {
+        height: 450px;
+    }
+}
+@media (max-device-width: 335px) {
+    .data {
+        height: 550px;
+    }
+}
+@media (max-device-width: 278px) {
+    .data {
+        height: 750px;
+    }
+}
